@@ -13,8 +13,8 @@ namespace Symfony\UX\Autocomplete\Tests\Fixtures;
 
 use Doctrine\Bundle\DoctrineBundle\DoctrineBundle;
 use Doctrine\ORM\Mapping\AssociationMapping;
-use Fixtures\Form\CategoryWithCallbackAsCustomValue;
-use Fixtures\Form\CategoryWithPropertyNameAsCustomValue;
+use Symfony\UX\Autocomplete\Tests\Fixtures\Form\CategoryWithCallbackAsCustomValue;
+use Symfony\UX\Autocomplete\Tests\Fixtures\Form\CategoryWithPropertyNameAsCustomValue;
 use Psr\Log\NullLogger;
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;

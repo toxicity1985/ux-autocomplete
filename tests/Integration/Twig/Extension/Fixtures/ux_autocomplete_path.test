@@ -1,0 +1,13 @@
+// content of file Fixtures/filter/myfilter.test
+/*
+--TEST--
+"myfilter" filter test
+--TEMPLATE--
+{{ foo|myfilter }}
+{{ notfoo|myfilter }}
+--DATA--
+return ['foo' => 'this is foo', 'notfoo' => 'nothing changed']
+--EXPECT--
+this is bar
+nothing changed
+*/
